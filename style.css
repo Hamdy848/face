@@ -1,0 +1,66 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    font-family: Karla;
+}
+.container {
+    display: grid;
+    width: 1440px ;
+    margin: auto;
+    grid-template-areas: 
+    "top top"
+    "bottomLeft bottomRight";
+    border: 2px solid hsl(204, 43%, 93%);
+    justify-content: center;
+}
+.box {
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: top;
+    padding: 50px 30px 10px 40px;
+}
+#one {
+    grid-area: top;
+    background-color: white;
+}
+#two {
+    grid-area: bottomLeft;
+    background-color:hsl(179, 62%, 43%);
+    color: white;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+#three {
+    grid-area: bottomRight;
+    width: 300px;
+    height: 250px;
+    background-color: hsl(179, 69%, 56%);
+    color: white;
+    line-height: 25px;
+}
+span {
+    font-weight: bold;
+    font-size: x-large;
+}
+.bellow {
+    color: hsl(71, 73%, 54%);
+    font-weight: normal;
+    font-size: 20px;
+}
+.sign {
+    color:white;
+    background-color:hsl(71, 73%, 54%);
+    border: 0px solid hsl(71, 73%, 54%) ;
+    border-radius: 7px;
+    border-width: 15px 100px 15px 100px ;
+    font-size: medium;
+    text-transform: capitalize;
+}
+.join {
+    font-size: x-large;
+    color: hsl(179, 62%, 43%);
+    text-transform: capitalize;
+}
+sup {
+    font-size: 15px;
+}
